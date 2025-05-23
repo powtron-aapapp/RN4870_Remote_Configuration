@@ -127,7 +127,9 @@ Using an Android device involves more effort than using two RN4871 modules. Sinc
 
 3. Click on the 'Connect' button on the top right.
 
-![MBD App screen 2](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp2.png)
+<div style="text-align: center;">
+    <img src="https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp2.png" alt="MBD App screen 2">
+</div>
 
 4. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
 
@@ -136,6 +138,7 @@ Using an Android device involves more effort than using two RN4871 modules. Sinc
 5. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
 
 ![MBD App screen 5](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp4.png)
+
 You should also see the connection being established on the RN4871 Remote module side with a PC serial terminal with a message similar to 
 *%CONNECT,1,5C434D58D439%%CONN_PARAM,0006,0000,01F4%%SECURED%%CONN_PARAM,0027,0000,01F4%%BONDED%%CONN_PARAM,0006,0000,01F4%%CONN_PARAM,0027,0000,01F4%%DISCONNECT%%CONNECT,1,79E6F8B64221%%SECURED%*
 
