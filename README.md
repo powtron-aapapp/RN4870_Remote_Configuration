@@ -131,8 +131,6 @@ Using an Android device involves more effort than using two RN4871 modules. Sinc
     <img src="https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp2.png" alt="MBD App screen 2">
 </p>
 
-
-
 4. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
 
 ![MBD App screen 4](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp3.png)
