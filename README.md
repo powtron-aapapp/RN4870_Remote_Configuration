@@ -123,20 +123,23 @@ Using an Android device involves more effort than using two RN4871 modules. Sinc
 
 ![MBD App screen 1](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp1.png)
 
-3. The connection status intially should show up as 'Disconnected'. Click on the top-right menu (3 vertical dots) and the option 'Bond' should show up. Click on 'Bond'. The status should change to 'Disconnected - Bonded'.
+2. The connection status intially should show up as 'Disconnected'. Click on the top-right menu (3 vertical dots) and the option 'Bond' should show up. Click on 'Bond'. The status should change to 'Disconnected - Bonded'.
 
-4. Click on the 'Connect' button on the top right.
+3. Click on the 'Connect' button on the top right.
+
 ![MBD App screen 2](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp2.png)
 
-5. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
+4. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
+
 ![MBD App screen 4](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp3.png)
 
-6. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
+5. Once the connection is established you should see the two services shown below – Device Information and Microchip Data Service, as shown below.
+
 ![MBD App screen 5](https://github.com/MchpBTApps/RN4870_Remote_Configuration/blob/main/Figures/MBDApp4.png)
 You should also see the connection being established on the RN4871 Remote module side with a PC serial terminal with a message similar to 
 *%CONNECT,1,5C434D58D439%%CONN_PARAM,0006,0000,01F4%%SECURED%%CONN_PARAM,0027,0000,01F4%%BONDED%%CONN_PARAM,0006,0000,01F4%%CONN_PARAM,0027,0000,01F4%%DISCONNECT%%CONNECT,1,79E6F8B64221%%SECURED%*
 
-7. Select the “Microchip Data Service” and you will see this service has three Characteristics. The Transparent UART Service is the primary service with a UUID set to:  
+6. Select the “Microchip Data Service” and you will see this service has three Characteristics. The Transparent UART Service is the primary service with a UUID set to:  
 49535343-FE7D-4AE5-8FA9-9FAFD205E455.
 - The Transparent UART Service contains the following characteristics:
   - Transparent UART TX: 
